@@ -4,6 +4,7 @@ from turtle import *
 
 #step 1:  draw a square
 #speed(10)
+speed(40)
 shape("turtle")
 color("red")
 width(7)
@@ -75,3 +76,22 @@ forward(35)
 end_fill()
 
 exitonclick()
+
+penup()
+goto(20, 90)
+pendown()
+
+color("red")
+begin_fill()
+forward(200)
+left(90)
+forward(200)
+left(90)
+forward(200)
+left(90)
+forward(200)
+left(90)
+
+
+
+
