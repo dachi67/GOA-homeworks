@@ -57,11 +57,4 @@ forward(300)
 speed(100)
 exitonclick()
 
-penup()
-goto(200 , 200)
-pendown()
 
-color("red")
-forward(90)
-left(90)
-forward(20)
